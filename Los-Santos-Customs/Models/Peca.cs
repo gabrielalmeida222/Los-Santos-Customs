@@ -15,7 +15,11 @@ namespace Los_Santos_Customs.Models
         [Required(ErrorMessage = "Por favor, informe o nome da peça")]
         public string Nome { get; set; }
 
-        public string 
+        public string Medida { get; set; }
+
+        public string Cor { get; set; }
+
+        
 
     }
 }
